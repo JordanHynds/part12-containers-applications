@@ -7,6 +7,7 @@ const todosRouter = require('./routes/todos');
 
 const app = express();
 
+app.use(express.static("../todo-frontend/build"))
 app.use(cors());
 
 app.use(logger('dev'));

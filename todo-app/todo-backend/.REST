@@ -1,0 +1,16 @@
+PUT http://localhost:3000/todos/61eed788f72e3287472eefc6 HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "61eed788f72e3287472eefc6",
+    "text": "implemented put in router"
+}
+
+###
+
+POST http://localhost:3000/todos HTTP/1.1
+content-type: application/json
+
+{
+    "text": "implemented put in router"
+}
